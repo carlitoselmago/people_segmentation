@@ -3,7 +3,7 @@ from pixellib.torchbackend.instance import instanceSegmentation
 import cv2
 import time
 
-capture = cv2.VideoCapture(2)
+capture = cv2.VideoCapture(0)
 
 # Set the window named "frame" to fullscreen
 cv2.namedWindow("frame", cv2.WND_PROP_FULLSCREEN)
